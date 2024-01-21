@@ -1,0 +1,87 @@
+.cntnr {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bgimage {
+  background-size:auto;
+  width: 100%;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 500px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom-center {
+  position: absolute;
+  bottom: 400px;
+  left: 30px;
+  width: 15%;
+}
+
+.bottom-center:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.bottom-cntr {
+  position: absolute;
+  bottom: 300px;
+  left: 30px;
+  width: 15%;
+}
+
+.bottom-cntr:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.rating {
+  width: 100%;
+  height: 0.01%;
+}
+
+.card {
+  border: 2px solid lightgrey;
+  width: 100%;
+  float: left;
+}
+
+.card img{
+  width:60%;
+  height: 30px;
+  background-image:  rgb(255, 255, 255);
+
+}
+
+.cards {
+  padding-top: 1.5%;
+  padding-bottom: 20%;
+}
+
+.title{
+  text-align: left;
+  font-weight: bold;
+  font-size: x-large;
+  font-family: Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: rgb(47, 0, 255);
+  margin-left: 5%;
+  margin-top: 2.5%;
+}
+
+.stats img {
+  width:100%;
+  margin: 0%;
+  padding: 0%;
+}
